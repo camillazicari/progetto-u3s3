@@ -97,3 +97,9 @@ hr {
 #volume-control {
   width: 90px !important;
 }
+
+@media screen and (min-width: 992px) {
+  .margine {
+    margin-top: 50px !important;
+  }
+}

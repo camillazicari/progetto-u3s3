@@ -28,7 +28,7 @@ function App() {
             <Col xs={12} className="d-none d-lg-block px-0 playerAlto">
               <PlayerAlto />
             </Col>
-            <Col xs={12}>
+            <Col xs={12} className="margine">
               <StaticMain />
             </Col>
             <Col xs={12}>
