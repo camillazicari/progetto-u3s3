@@ -7,10 +7,12 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import StaticMain from "./components/StaticMain";
 import { Col, Container, Row } from "react-bootstrap";
 import DynamicMain from "./components/DynamicMain";
+import Altro from "./components/Altro";
+import AppleMusicFooter from "./components/AppleMusicFooter";
 
 function App() {
   return (
-    <Container fluid className="d-md-flex p-0">
+    <Container fluid className="d-md-flex p-0 overflow-hidden">
       <Row>
         <Col
           xs={12}
@@ -22,11 +24,18 @@ function App() {
         </Col>
         <Col xs={12} md={9}>
           <Row>
+            <Col xs={12} className=" d-none d-lg-block px-0"></Col>
             <Col xs={12}>
               <StaticMain />
             </Col>
             <Col xs={12}>
               <DynamicMain />
+            </Col>
+            <Col xs={12}>
+              <Altro />
+            </Col>
+            <Col xs={12} className="px-0">
+              <AppleMusicFooter />
             </Col>
           </Row>
         </Col>

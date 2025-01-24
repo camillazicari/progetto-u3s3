@@ -41,6 +41,12 @@ hr {
   opacity: 75% !important;
 }
 
+@media screen and (min-width: 768px) {
+  .testiNovita {
+    font-size: 17px !important;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .testiNovita {
     font-size: 24px !important;
@@ -50,4 +56,30 @@ hr {
   .testiNovita {
     font-size: 14px !important;
   }
+}
+
+.Bottoni {
+  background-color: #2a2a2a !important;
+}
+
+@media screen and (min-width: 992px) {
+  .testoSpan {
+    font-size: 15px !important;
+  }
+}
+
+.footerText {
+  font-size: 12px;
+}
+
+.footerText2 {
+  font-size: 11px;
+}
+
+#playerBg {
+  background-color: #242424 !important;
+}
+
+.imgPlayerDiv {
+  width: 15% !important;
 }
