@@ -12,7 +12,7 @@ function AppleMusicNav() {
           <p className="py-0 m-0 fs-3"></p>
           <p className="ps-1 py-0 m-0">Music</p>
         </Navbar.Brand>
-        <Nav.Link className="text-danger">Accedi</Nav.Link>
+        <Nav.Link className="text-danger d-md-none">Accedi</Nav.Link>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto d-md-flex flex-md-column">
             <Form className="d-flex border-1 border rounded-2 p-1 my-3 sfondoInput">

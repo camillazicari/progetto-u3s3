@@ -9,6 +9,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import DynamicMain from "./components/DynamicMain";
 import Altro from "./components/Altro";
 import AppleMusicFooter from "./components/AppleMusicFooter";
+import PlayerAlto from "./components/PlayerAlto";
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
         </Col>
         <Col xs={12} md={9}>
           <Row>
-            <Col xs={12} className=" d-none d-lg-block px-0"></Col>
+            <Col xs={12} className="d-none d-md-block px-0 playerAlto">
+              <PlayerAlto />
+            </Col>
             <Col xs={12}>
               <StaticMain />
             </Col>
