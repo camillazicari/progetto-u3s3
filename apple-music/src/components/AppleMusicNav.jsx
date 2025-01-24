@@ -9,8 +9,8 @@ function AppleMusicNav() {
           className="border-0 text-danger"
         />
         <Navbar.Brand href="#" className="d-flex align-items-center text-white">
-          <p className="py-0 m-0 fs-3"></p>
-          <p className="ps-1 py-0 m-0">Music</p>
+          <p className="py-0 m-0 fs-1"></p>
+          <p className="ps-1 py-0 m-0 fs-2">Music</p>
         </Navbar.Brand>
         <Nav.Link className="text-danger d-md-none">Accedi</Nav.Link>
         <Navbar.Collapse id="basic-navbar-nav">
