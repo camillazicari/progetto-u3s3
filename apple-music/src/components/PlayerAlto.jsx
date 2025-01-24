@@ -26,8 +26,8 @@ const PlayerAlto = () => {
           max="100"
         />
       </div>
-      <div>
-        <Button className=" bg-danger border-0">
+      <div className="d-flex align-items-center">
+        <Button className=" bg-danger border-0 btn-sm">
           <i className="bi bi-person-fill text-white pe-1"></i>Accedi
         </Button>
       </div>
