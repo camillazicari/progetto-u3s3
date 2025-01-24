@@ -4,7 +4,7 @@ const PlayerAlto = () => {
   return (
     <Container
       fluid
-      className="bgPAlto d-flex justify-content-between px-5 align-items-center"
+      className="bgPAlto d-flex justify-content-between px-3 align-items-center"
     >
       <div className="text-white-50 d-flex align-items-center">
         <i className="bi bi-shuffle fs-6 px-1"></i>
