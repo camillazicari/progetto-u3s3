@@ -13,14 +13,13 @@ function App() {
       <Row>
         <Col
           xs={12}
-          md={4}
-          xl={3}
+          md={3}
           className="pe-0 d-md-flex justify-content-center align-items-start"
           id="navCol"
         >
           <AppleMusicNav />
         </Col>
-        <Col xs={12} md={8} xl={9}>
+        <Col xs={12} md={9}>
           <StaticMain />
         </Col>
       </Row>
