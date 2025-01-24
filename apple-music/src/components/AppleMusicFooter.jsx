@@ -43,7 +43,7 @@ const AppleMusicFooter = () => {
           <p className="footerText2 text-white">Feedback</p>
         </Col>
       </Row>
-      <Row className="d-flex d-md-none mx-3 fixed-bottom bottom-0">
+      <Row className="d-flex d-lg-none mx-3 fixed-bottom bottom-0">
         <PlayerBasso />
       </Row>
     </Container>

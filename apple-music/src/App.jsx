@@ -25,7 +25,7 @@ function App() {
         </Col>
         <Col xs={12} md={9}>
           <Row>
-            <Col xs={12} className="d-none d-md-block px-0 playerAlto">
+            <Col xs={12} className="d-none d-lg-block px-0 playerAlto">
               <PlayerAlto />
             </Col>
             <Col xs={12}>
