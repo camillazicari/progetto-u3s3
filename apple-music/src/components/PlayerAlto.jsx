@@ -27,7 +27,9 @@ const PlayerAlto = () => {
         />
       </div>
       <div>
-        <Button className=" bg-danger border-0">Accedi</Button>
+        <Button className=" bg-danger border-0">
+          <i className="bi bi-person-fill text-white pe-1"></i>Accedi
+        </Button>
       </div>
     </Container>
   );
