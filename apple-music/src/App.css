@@ -26,3 +26,13 @@ input::-webkit-input-placeholder {
 .sfondoInput {
   background-color: #1f1f1f !important;
 }
+
+hr {
+  color: #67676a !important ;
+}
+
+.descriptions {
+  font-size: 13px;
+  color: white !important;
+  opacity: 75% !important;
+}
