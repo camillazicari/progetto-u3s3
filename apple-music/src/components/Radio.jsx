@@ -3,14 +3,17 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 const Radio = () => {
   return (
     <Container fluid className="text-white mt-5">
-      <Row className="mx-2 mt-4">
+      <Row className="mx-2 mt-4 mb-2">
         <Col xs={12}>
-          <h1 className=" display-6">
+          <h1 className="display-6">
             Nuovi episodi radio <i className="bi bi-chevron-right fs-4"></i>
           </h1>
         </Col>
       </Row>
-      <Row className="mx-2 flex-nowrap overflow-auto">
+      <Row
+        lg={5}
+        className="mx-2 flex-nowrap overflow-auto justify-content-md-around"
+      >
         <Col xs={4}>
           <Card className="bg-transparent border-0">
             <Card.Img

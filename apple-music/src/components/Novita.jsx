@@ -9,15 +9,15 @@ const Novita = () => {
           <hr className="my-1" />
         </Col>
       </Row>
-      <Row className="mx-2 flex-nowrap overflow-auto">
-        <Col xs={8}>
+      <Row className="mx-2 flex-nowrap overflow-auto align-items-end">
+        <Col xs={8} md={6}>
           <Card className="bg-transparent border-0">
-            <Card.Body className=" ps-0">
+            <Card.Body className="ps-0">
               <Card.Text>
                 <h3 className="fs-6 text-white-50 mb-0">
                   NUOVA STAZIONE RADIO
                 </h3>
-                <p className="text-white fs-5 mb-1">
+                <p className="text-white testiNovita mb-1">
                   Rilassati, al resto pensiamo noi. Ascolta Apple Music Chill
                 </p>
               </Card.Text>
@@ -29,14 +29,14 @@ const Novita = () => {
             />
           </Card>
         </Col>
-        <Col xs={8}>
+        <Col xs={8} md={6}>
           <Card className="bg-transparent border-0">
-            <Card.Body className=" ps-0">
+            <Card.Body className="ps-0">
               <Card.Text>
                 <h3 className="fs-6 text-white-50 mb-0">
                   NUOVA STAZIONE RADIO
                 </h3>
-                <p className="text-white fs-5 mb-1">
+                <p className="text-white testiNovita mb-1">
                   Ecco la nuova casa della musica latina
                 </p>
               </Card.Text>
