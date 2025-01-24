@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import StaticMain from "./components/StaticMain";
 import { Col, Container, Row } from "react-bootstrap";
+import DynamicMain from "./components/DynamicMain";
 
 function App() {
   return (
@@ -20,7 +21,14 @@ function App() {
           <AppleMusicNav />
         </Col>
         <Col xs={12} md={9}>
-          <StaticMain />
+          <Row>
+            <Col xs={12}>
+              <StaticMain />
+            </Col>
+            <Col xs={12}>
+              <DynamicMain />
+            </Col>
+          </Row>
         </Col>
       </Row>
     </Container>
