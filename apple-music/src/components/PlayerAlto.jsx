@@ -15,6 +15,16 @@ const PlayerAlto = () => {
       <div className="bg-secondary w-50 d-flex justify-content-center align-items-center">
         <p className="p-0 m-0 fs-2 text-white"></p>
       </div>
+      <div className="d-flex">
+        <i className="bi bi-volume-up text-white-50"></i>
+        <input
+          type="range"
+          className="form-range"
+          id="volume-control"
+          min="0"
+          max="100"
+        />
+      </div>
       <div>
         <Button className=" bg-danger border-0">Accedi</Button>
       </div>
