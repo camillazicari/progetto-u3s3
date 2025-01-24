@@ -8,9 +8,9 @@ const PlayerAlto = () => {
     >
       <div className="text-white-50 d-flex align-items-center">
         <i className="bi bi-shuffle fs-6 px-1"></i>
-        <i className="bi bi-skip-backward-fill fs-4 px-1"></i>
+        <i className="bi bi-rewind-fill fs-4 px-1"></i>
         <i className="bi bi-play-fill fs-1 px-1"></i>
-        <i className="bi bi-skip-forward-fill fs-4 px-1"></i>
+        <i className="bi bi-fast-forward-fill fs-4 px-1"></i>
         <i className="bi bi-repeat fs-6 px-1"></i>
       </div>
       <div className="bg-secondary w-50 d-flex justify-content-center align-items-center">
